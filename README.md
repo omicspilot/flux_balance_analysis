@@ -97,7 +97,7 @@ builder.display_in_notebook()
 
 - [COBRApy Documentation](https://cobrapy.readthedocs.io/)
 - [BiGG Models Database](http://bigg.ucsd.edu/)
-- Orth et al., 2010. *A comprehensive genome-scale reconstruction of Escherichia coli metabolism.*
+- [Orth et al., 2010. *A comprehensive genome-scale reconstruction of Escherichia coli metabolism.*](https://pubmed.ncbi.nlm.nih.gov/21988831/)
 
 ---
 
@@ -111,5 +111,6 @@ builder.display_in_notebook()
 
 ## 👩‍🔬 Author
 
-Developed by [Oumar Ndiaye](https://github.com/ndiayeoumar)
+Developed by [Oumar Ndiaye](https://github.com/ndiayeoumar).
+
 Feel free to open issues or submit pull requests to collaborate.
