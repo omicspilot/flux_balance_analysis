@@ -25,17 +25,23 @@ git clone https://github.com/your-username/fluxbalance-ecoli.git
 cd fluxbalance-ecoli
 ```
 
-Install required Python packages:
+### 🔧 Set up the environment (recommended)
+
+Using conda (recommended on macOS and Linux):
 
 ```bash
-pip install cobra optlang matplotlib seaborn
+conda env create -f environment.yml
+conda activate fluxbalance
 ```
 
-Optional tools (for visualization, benchmarking, etc.):
+This will install all necessary dependencies including:
+- cobra
+- optlang
+- matplotlib
+- seaborn
+- pandas
+- escher (via pip)
 
-```bash
-pip install escher pandas
-```
 
 ---
 

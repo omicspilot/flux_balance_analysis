@@ -1,0 +1,13 @@
+name: fluxbalance
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - cobra
+  - optlang
+  - matplotlib
+  - seaborn
+  - pandas
+  - pip
+  - pip:
+      - escher
