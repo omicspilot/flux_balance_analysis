@@ -62,30 +62,20 @@ fluxbalance-ecoli/
 
 ## 🚀 Getting Started
 
-### 1. Load a metabolic model
+### 1. Download a Metabolic Model
 
-Example in Python:
+Run the download script to fetch a genome-scale model from the BiGG database. You will be prompted to choose which model to download.
 
-```python
-import cobra
-model = cobra.io.load_json_model('models/iJO1366.json')
+```bash
+python scripts/0_download_model.py
 ```
 
-### 2. Run basic FBA
+### 2. Explore the Model
 
-```python
-solution = model.optimize()
-print("Growth rate:", solution.objective_value)
-```
+The `notebooks/` directory contains examples for analysis. Start with `1_model_summary.ipynb` to load your downloaded model and view its properties.
 
-### 3. Visualize fluxes (optional)
-
-```python
-import escher
-from escher import Builder
-
-builder = Builder(model=model, map_name='e_coli_core.Core metabolism')
-builder.display_in_notebook()
+```bash
+jupyter notebook notebooks/1_model_summary.ipynb
 ```
 
 ---
