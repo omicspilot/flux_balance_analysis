@@ -82,6 +82,7 @@ jupyter notebook notebooks/0_introductory_exploration/1_model_summary.ipynb
 
 ## 📚 References
 
+- [Introduction into genome.scale metabolic modelling](https://www.ebi.ac.uk/training/materials/symbnet-materials/from-mags-to-metabolic-modelling/introduction-into-genome-scale-metabolic-modelling-fba/?utm_source=chatgpt.com)
 - [COBRApy Documentation](https://cobrapy.readthedocs.io/)
 - [BiGG Models Database](http://bigg.ucsd.edu/)
 - [Orth et al., 2010. *A comprehensive genome-scale reconstruction of Escherichia coli metabolism.*](https://pubmed.ncbi.nlm.nih.gov/21988831/)
