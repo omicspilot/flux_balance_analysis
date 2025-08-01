@@ -16,13 +16,13 @@ This project provides a Python-based pipeline to perform and analyze Flux Balanc
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/fluxbalance-ecoli.git
-cd fluxbalance-ecoli
+git clone https://github.com/your-username/flux_balance_analysis.git
+cd flux_balance_analysis
 ```
 
 ### 🔧 Set up the environment (recommended)
@@ -34,28 +34,19 @@ conda env create -f environment.yml
 conda activate fluxbalance
 ```
 
-This will install all necessary dependencies including:
-- cobra
-- optlang
-- matplotlib
-- seaborn
-- pandas
-- escher (via pip)
-
-
 ---
 
 ## 📁 Project Structure
 
 ```
-fluxbalance-ecoli/
+flux_balance_analysis/
 │
 ├── models/              # Genome-scale models (e.g., iJO1366.json)
-├── notebooks/           # Jupyter notebooks for simulations and analyses
-├── scripts/             # Python scripts for reusable code
+├── notebooks/           # Jupyter notebooks and Python scripts
 ├── results/             # Output files (plots, flux maps, logs)
 ├── README.md            # This file
 └── requirements.txt     # Optional pip environment
+└── environment.yml      # Conda environment file
 ```
 
 ---
@@ -64,10 +55,10 @@ fluxbalance-ecoli/
 
 ### 1. Download a Metabolic Model
 
-Run the download script to fetch a genome-scale model from the BiGG database. You will be prompted to choose which model to download.
+Run the [download script](./notebooks/0_introductory_exploration/0_download_model.py) to fetch a genome-scale model from the BiGG database. You will be prompted to choose which model to download.
 
 ```bash
-python scripts/0_download_model.py
+python notebooks/0_introductory_exploration/0_download_model.py
 ```
 
 ### 2. Explore the Model
@@ -75,7 +66,7 @@ python scripts/0_download_model.py
 The `notebooks/` directory contains examples for analysis. Start with `1_model_summary.ipynb` to load your downloaded model and view its properties.
 
 ```bash
-jupyter notebook notebooks/1_model_summary.ipynb
+jupyter notebook notebooks/0_introductory_exploration/1_model_summary.ipynb
 ```
 
 ---
@@ -97,7 +88,7 @@ jupyter notebook notebooks/1_model_summary.ipynb
 
 ---
 
-## 🧪 Future Extensions
+## Future Extensions
 
 - Optimize for metabolite production (e.g., ethanol, succinate)
 - Add transcriptomic constraints (e.g., with GIMME, iMAT)
@@ -105,8 +96,9 @@ jupyter notebook notebooks/1_model_summary.ipynb
 
 ---
 
-## 👩‍🔬 Author
+## Author
 
 Developed by [Oumar Ndiaye](https://github.com/ndiayeoumar).
 
 Feel free to open issues or submit pull requests to collaborate.
+
