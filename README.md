@@ -82,6 +82,7 @@ jupyter notebook notebooks/0_introductory_exploration/1_model_summary.ipynb
 
 ## 📚 References
 
+- [Genome-Scale Metabolic Modeling Enables In-Depth Understanding of Big Data](https://pmc.ncbi.nlm.nih.gov/articles/PMC8778254/?utm_source=chatgpt.com) 
 - [COBRApy Documentation](https://cobrapy.readthedocs.io/)
 - [BiGG Models Database](http://bigg.ucsd.edu/)
 - [Orth et al., 2010. *A comprehensive genome-scale reconstruction of Escherichia coli metabolism.*](https://pubmed.ncbi.nlm.nih.gov/21988831/)
