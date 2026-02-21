@@ -1,11 +1,11 @@
-# fluxbalance-ecoli
+# flux-balance-analysis
 
 **Flux Balance Analysis of *Escherichia coli* metabolism using Python and COBRApy.**  
 This project provides a Python-based pipeline to perform and analyze Flux Balance Analysis (FBA) on *E. coli*, leveraging the COBRApy library and curated genome-scale models.
 
 ---
 
-## 📌 Project Goals
+## Project Goals
 
 - Load and explore *E. coli* genome-scale metabolic models (e.g., iJO1366, iML1515)
 - Simulate wild-type growth on minimal media
@@ -25,7 +25,7 @@ git clone https://github.com/your-username/flux_balance_analysis.git
 cd flux_balance_analysis
 ```
 
-### 🔧 Set up the environment (recommended)
+### Set up the environment (recommended)
 
 Using conda (recommended on macOS and Linux):
 
@@ -36,7 +36,7 @@ conda activate fluxbalance
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 flux_balance_analysis/
@@ -51,7 +51,7 @@ flux_balance_analysis/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Download a Metabolic Model
 
@@ -71,7 +71,7 @@ jupyter notebook notebooks/0_introductory_exploration/1_model_summary.ipynb
 
 ---
 
-## 📊 Example Results
+## Example Results
 
 - Biomass production on glucose minimal media
 - Essential gene knockouts and their effect on growth
@@ -80,7 +80,7 @@ jupyter notebook notebooks/0_introductory_exploration/1_model_summary.ipynb
 
 ---
 
-## 📚 References
+## References
 
 - [Genome-Scale Metabolic Modeling Enables In-Depth Understanding of Big Data](https://pmc.ncbi.nlm.nih.gov/articles/PMC8778254/?utm_source=chatgpt.com) 
 - [COBRApy Documentation](https://cobrapy.readthedocs.io/)
